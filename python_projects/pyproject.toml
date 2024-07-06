@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python_projects"
+version = "0.1.0"
+description = "Projects in Python"
+authors = ["Kacper Widuta <widuta.kacper@gmail.com>"]
+readme = "README.md"
+license = "GLWTS(NOLLM)"
+
+packages = [{include = "*", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

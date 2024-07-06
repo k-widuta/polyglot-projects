@@ -1,0 +1,17 @@
+{
+  "name": "typescript-projects",
+  "version": "1.0.0",
+  "description": "Fun projects written in TS",
+  "type": "module",
+  "scripts": {
+    "watch": "npx tsc -w",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "Primeagen x Vidutti",
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}
